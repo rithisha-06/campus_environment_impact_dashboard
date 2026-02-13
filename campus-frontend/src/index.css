@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dfeee2;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #9bd3a7, #b8e0c0);
+  padding: 15px 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  background-color: #cde3d3;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.sidebar button.active {
+  background-color: #1e8e3e;
+  color: white;
+}
+
+/* Main content */
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+/* Chart section */
+.chart-section {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
